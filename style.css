@@ -3,6 +3,9 @@ nav{
     padding: 10px;
 }
 
+main{
+    max-width: 800px;
+}
 nav a{
     color: white;
     display: block;
@@ -13,13 +16,18 @@ h1{
     color: steelblue;
 }
 
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px soild steelblue;
     padding: 2px;
+    border-radius: 10px;
     box-shadow: 0 0 30px gray;
 }
 p{
     padding: 10px;
+}
+
+aside{
+
 }

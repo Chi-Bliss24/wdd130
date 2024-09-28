@@ -1,13 +1,19 @@
 .callout {
-	
+	max-width: 800px;
+    margin: ;
+    color: white;
+    background-color: steelblue;
 }
 
 .callout img {
-	
+    margin: 20px;
+	float: right;
+    border: 2px solid white;
 }
 
 blockquote {
-	
+
+    padding: 20px;
 }
 
 cite {
