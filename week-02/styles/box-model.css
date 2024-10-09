@@ -1,6 +1,5 @@
 .callout {
 	max-width: 800px;
-    margin: ;
     color: white;
     background-color: steelblue;
 }
@@ -17,5 +16,5 @@ blockquote {
 }
 
 cite {
-	
+	margin: 1;
 }
