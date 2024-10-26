@@ -52,3 +52,7 @@ footer{
     border-top: 1px solid #000000;
     text-align: center;
 }
+header, footer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
