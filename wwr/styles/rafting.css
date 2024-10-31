@@ -72,6 +72,11 @@ body{
     border-radius: 10px;
     font-size: 18px; 
 }
+.hero-index{
+    width: 100%;
+    grid-row: 1/4;
+    grid-area: 1/1  4/3;
+}
 .hero article img{
     width: 200px;
     float: right;
@@ -233,7 +238,113 @@ figcaption{
     gap: 10px;
     border: none;
 }
+ /* for index.html stylingings*/
+ .index-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3(1fr);
+    gap: 15px;
+ }
+ .index-main div{
+    background-color: rgba(247, 243, 252, 0.418);
+ }
+ .index-main h1{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 30px;
+    font-size: 55px;
+    color: #fcf8ec;
+ }
+ .index-main h2{
+    position: absolute;
+    margin-top:90px;
+    margin-left: 30px;
+    font-family: titillium web, Arial, Helvetica, sans-serif;
+    color: #effcff;
+ }
+ .index-main a{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #e69655;
+ }
+ .index-main a:hover{
+    color: #77b9e6;
+ }
+ .index-main img{
+    position: relative;
+    grid-column: 1/4;
+ }
+ .index-main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    width: 280px;
+    height: 310px;
 
+ }
+ .form-box{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    border-radius: 20px;
+ }
+
+ .initial-form input{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    left: 50;
+    right: 50;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px #000;
+ }
+ .box1{
+    position: relative;
+    grid-column: 1/2;
+    background-color: blueviolet;
+    font-family: monospace;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+ .box1 img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
+ .box2{
+    position: relative;
+    grid-column: 2/3;
+    background-color: blueviolet;
+ }
+ .box2 img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
+ .box3{
+    position: relative;
+    width: 100%;
+    grid-column: 3/4;
+ }
+ .box3 img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+ }
 /* footer{
     display: flex;
     justify-content: flex-end;
@@ -243,6 +354,7 @@ figcaption{
     padding: 10px;
 } */
 footer{
+    border-top: 2px solid rgb(139, 139, 139);
     margin-top: 200px;
     position: relative;
     display: grid;
