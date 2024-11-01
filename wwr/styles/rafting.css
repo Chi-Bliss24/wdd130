@@ -39,9 +39,7 @@ nav a{
     grid-template-columns: repeat( minmax(150px, 1fr));
     gap: 10px;
   }
-body{
-  
-}
+
 .hero{
     position: relative;
     display: flex;           /* Use flexbox */
@@ -241,9 +239,9 @@ figcaption{
  /* for index.html stylingings*/
  .index-main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: 3(1fr);
-    gap: 15px;
+    gap: 20px;
  }
  .index-main div{
     background-color: rgba(247, 243, 252, 0.418);
@@ -253,23 +251,24 @@ figcaption{
     margin-top:10px;
     margin-left: 30px;
     font-size: 55px;
-    color: #fcf8ec;
+    color: var(--primary-color);
  }
  .index-main h2{
     position: absolute;
     margin-top:90px;
     margin-left: 30px;
     font-family: titillium web, Arial, Helvetica, sans-serif;
-    color: #effcff;
+    color: #ffffff;
  }
  .index-main a{
     position: absolute;
     margin-top: 270px;
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
-    font-weight: 600;
-    color: #e69655;
+    font-weight: 500;
+    color: #ffa600;
+    font-family: roboto, monospace;
  }
  .index-main a:hover{
     color: #77b9e6;
@@ -290,7 +289,7 @@ figcaption{
  }
  .form-box{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 70%;
     border-radius: 20px;
  }
@@ -353,9 +352,71 @@ figcaption{
     gap: 100px;
     padding: 10px;
 } */
+ /* For trips.htmlK */
+ .trip-article h2{
+    color: #fff;
+ }
+ .trip-article p{
+    color: #fff;
+ }
+ .trip-container{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+
+ }
+ .trip{
+    position: relative;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.5);
+ }
+ .trips{
+    text-align: center;
+ }
+ .trip h3{
+    position: relative;
+    color: var(--primary-color);
+ }
+ .trip-article{
+    position: absolute;
+ }
+.trip a{
+    background-color: #eecc8e;
+    color: #005d66;
+    padding: 7px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: titillium web, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.trip a:hover{
+    background-color: #f7b946;
+    color: #138e99;
+}
+.trips-button{
+    width: 200px;
+    background-color: #e2dbcf71;
+    color: #005d66;
+    padding: 7px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: titillium web, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+ .trip-container img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+ }
 footer{
     border-top: 2px solid rgb(139, 139, 139);
     margin-top: 200px;
+    padding-top: 10px;
     position: relative;
     display: grid;
     grid-template-columns: 4(1fr);
